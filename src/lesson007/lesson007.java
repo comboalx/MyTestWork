@@ -5,7 +5,7 @@ package lesson007;
  */
 public class lesson007 {
     public static void main (String [] args) {
-        int month = 4;
+        int month = 13;
         String season;
         if (month == 12 || month == 1 || month == 2)
             season = "winter";
@@ -16,7 +16,7 @@ public class lesson007 {
         else if (month == 9 || month == 10 || month == 11)
             season = "fol";
         else
-            season = "it's a dream";
-        System.out.println("April is - " + season);
+            season = "it's a dreams";
+        System.out.println(month + " month - " + season);
     }
 }
